@@ -8,14 +8,16 @@ body {
     height: 100vh;
     margin: 0;
     background-color: royalblue;
+    margin-top: -50px;
+    
+    
 }
-h1{
-    border: 2px solid #fff;
-    padding: 20px 40px;
-    border-radius: 10px;
-
+.logo img{
+    margin-bottom: 10px;
+    width: 300px;
+    margin-bottom: -70px;
+    
 }
-
 .container {
     background-image: url(img/868507_blue-lonly-sleep-gradation-blur-iphone-6-wallpapers-download_1080x1920_h.jpg);
     padding: 20px;
@@ -27,7 +29,7 @@ h1{
     
 }
 
-h2 {
+h1 {
     margin-bottom: 30px;
 }
 label {
