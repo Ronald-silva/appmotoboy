@@ -1,11 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-image:url(img/cfb477a6cfda30ae873aa0c01c22d9ac.jpeg);
+}
+h1{
+    border: 2px solid white;
+    padding: 20px 35px;
+    border-radius: 10px;
+
 }
 
 .container {
@@ -18,32 +25,22 @@ body {
     
 }
 
-h1 {
-    margin-bottom: 20px;
+h2 {
+    margin-bottom: 30px;
 }
-
 label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
    
 }
-
 input {
     width: 94%;
     padding: 8px;
     margin-bottom: 10px;
-    
     border: 1px solid #ccc;
     border-radius: 5px;
-    
 }
-form{
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
-
 button {
     width: 100%;
     padding: 10px;
@@ -52,8 +49,9 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-
 button:hover {
     background-color: #218838;
 }
