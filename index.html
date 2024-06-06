@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Entrega - Fortaleza-CE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Entrega</h1>
+        <form id="deliveryForm">
+            <label for="pickup">Endereço de Coleta:</label>
+            <input type="text" id="pickup" placeholder="Digite o endereço de coleta">
+
+            <label for="dropoff">Endereço de Entrega:</label>
+            <input type="text" id="dropoff" placeholder="Digite o endereço destinatário">
+
+            <button type="button" onclick="calculateDistance()">Calcular</button>
+        </form>
+
+        <div id="result">
+            <p id="distance"></p>
+            <p id="price"></p>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADR0eQZt9pBtRIWCzblLs6z1S-v08DplQ&libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+</html>
