@@ -35,8 +35,9 @@ body {
     
 }
 p{
+    display: flex;
     margin-bottom: 5px;
-    max-width: 100%;
+    
 }
 
 label {
