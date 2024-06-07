@@ -6,16 +6,22 @@ body {
     align-items: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
     background-color: royalblue;
-    margin-top: -50px;
-    
+    overflow: hidden;
     
 }
+.logo{
+    display:block;
+    align-items: center;
+    text-align: center;
+   
+}
 .logo img{
-    margin-bottom: 10px;
-    width: 300px;
-    margin-bottom: -70px;
+    
+    width: 150px;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    border: 2px solid white;
     
 }
 .container {
@@ -28,10 +34,10 @@ body {
    
     
 }
-
-h1 {
-    margin-bottom: 30px;
+p{
+    margin-bottom: 5px;
 }
+
 label {
     display: block;
     margin-bottom: 5px;
